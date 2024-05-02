@@ -4,7 +4,7 @@ import os
 from dotenv import load_dotenv
 import time
 
-load_dotenv()
+load_dotenv() # .env 파일 정보 불러오기
 
 # 클라이언트 인스턴스를 생성하고 API 키를 환경변수에서 가져옵니다
 client = OpenAI(
@@ -26,7 +26,6 @@ def completion():
     elapsed_time = time.time() - start_time
     print(f"경과 시간: {elapsed_time}초\n")
     return response
-
 
 # 응답을 출력합니다
 print(completion())

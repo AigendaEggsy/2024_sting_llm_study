@@ -6,12 +6,10 @@ import time
 
 load_dotenv()
 
-# 클라이언트 인스턴스를 생성하고 API 키를 환경변수에서 가져옵니다
 client = OpenAI(
     api_key = os.getenv('OPENAI_API_KEY')
 )
 
-# 대화 생성 요청을 보내고 응답을 받습니다
 # 참고 : https://platform.openai.com/docs/api-reference/audio/createTranslation
 def completion(qustion, temp):
     start_time = time.time()
