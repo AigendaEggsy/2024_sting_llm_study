@@ -17,7 +17,7 @@ prompt1 = ChatPromptTemplate.from_template("translates {korean_word} to English.
 chain1 = prompt1 | chat1 | StrOutputParser()
 
 chat2 = ChatOpenAI(
-    model_name="gpt-3.5-turbo-0125",
+    model_name="gpt-4-turbo",
     temperature = 0.1,
     # 스트리밍 활성화
     streaming=True,

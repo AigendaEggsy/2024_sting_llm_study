@@ -27,3 +27,5 @@ chain = prompt | chat | StrOutputParser()
 
 # chain 호출
 print(chain.invoke({"input": quesion}))
+
+

@@ -30,3 +30,4 @@ print(chat.invoke(prompt).content)
 
 # Quiz : LCEL Chaining을 사용해서 결과 작성하기
 # chain =
+

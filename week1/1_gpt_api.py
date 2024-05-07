@@ -31,4 +31,4 @@ def completion():
 print(completion())
 
 # Quiz 1 : 응답(content)만을 출력하게 하세요
-print("정답을 적으시오")
+# print("정답을 적으시오")
