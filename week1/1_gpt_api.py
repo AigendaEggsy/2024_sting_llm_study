@@ -28,7 +28,7 @@ def completion():
     return response
 
 # 응답을 출력합니다
-print(completion())
+print(completion().choices[0].message.content)
 
 # Quiz 1 : 응답(content)만을 출력하게 하세요
 # print("정답을 적으시오")

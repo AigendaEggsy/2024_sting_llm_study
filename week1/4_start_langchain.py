@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 load_dotenv() 
 
 from langchain_openai import ChatOpenAI
-from langchain_core.prompts import ChatPromptTemplate # 프롬프트 생성하는 메서드
+from langchain_core.prompts import ChatPromptTemplate # 프롬프트 생성하는 클래스
 from langchain_core.output_parsers import StrOutputParser # 모델의 출력을 문자열로 표시
 
 quesion = "지구는 태양 주변을 왜 공전해?"
