@@ -1,2 +1,5 @@
 week1/.env
 week1/.cache
+week2/.env
+week2/db
+week2/FAISS_DB_INDEX
